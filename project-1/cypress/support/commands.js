@@ -29,3 +29,7 @@
 Cypress.Commands.add('getByTestId', (testId) => {
     cy.get(`[data-testid='${testId}']`)
 })
+
+Cypress.Commands.add('getByDataCy', (testId) => {
+    cy.get(`[data-cy='${testId}']`)
+})
