@@ -14,6 +14,7 @@ function Elements() {
                 <button className="Elements-btn btn-with-class">Button With Class</button>
                 <button className="Elements-btn btn-with-class more-btn-classes">Button With Many Class</button>
                 <button className="Elements-btn" id="btn-with-id">Button With Id</button>
+                <button className="Elements-btn" data-testid="btn-with-testid">Button With data-testid</button>
                 <button className="Elements-btn" type="submit">Button With Type Submit</button>
                 <button className="Elements-btn" data-cy="btn-id-1">Button With Data Test Id</button>
 
@@ -31,8 +32,12 @@ function Elements() {
 
                 <h3 className="Elements-subheader">Find</h3>
                 <form style={{float: "left"}} id="form-1">
-                    <button className="Elements-btn btn-1">Button in Form</button>
-                    <button className="Elements-btn btn-2">Button in Form</button>
+                    <button className="Elements-btn btn-1">Button in Form 1</button>
+                    <button className="Elements-btn btn-2">Button in Form 1</button>
+                </form>
+                <form style={{float: "left"}} id="form-2">
+                    <button className="Elements-btn btn-1">Button in Form 2</button>
+                    <button className="Elements-btn btn-2">Button in Form 2</button>
                 </form>
             </div>
         </div>
