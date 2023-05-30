@@ -21,6 +21,7 @@ describe("Accomplishments", () => {
         cy.contains('Go Back').click()
         cy.getByDataCy('accomplishment-title-input').should('be.visible')
         cy.getByDataCy('accomplishment-input').should('be.visible')
+        cy.getByDataCy('accomplishment-checkbox').should('not.be.checked')
     })
     
 })
